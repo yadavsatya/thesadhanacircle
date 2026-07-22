@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --font-sans: var(--font-lato), "Nunito Sans", sans-serif;
+  --font-serif: var(--font-cormorant), "Playfair Display", serif;
+  
+  --color-brand-bg: #FBF6F0;
+  --color-brand-secondary: #C98C8C;
+  --color-brand-accent: #5C3A4E;
+  --color-brand-gold: #C9A66B;
+  --color-brand-neutral: #E8DDD3;
+}
+
+@layer utilities {
+  .glass-card {
+    @apply bg-white/40 backdrop-blur-md border border-white/60 shadow-[0_8px_32px_rgba(92,58,78,0.05)];
+  }
+}
