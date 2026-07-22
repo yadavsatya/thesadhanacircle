@@ -23,10 +23,26 @@ export function BookSession() {
               Select your preferred service and time. We will send you a secure link for our online session.
             </p>
 
-            <div className="bg-brand-bg/50 border border-brand-neutral/50 rounded-2xl p-12 mb-8 flex items-center justify-center min-h-[300px]">
-              <div className="text-center">
-                <p className="font-serif text-xl text-brand-accent/50 mb-2">[ Calendar Integration Placeholder ]</p>
-                <p className="text-sm text-brand-accent/40 font-light">Calendly / Acuity Scheduling will render here</p>
+            <div className="bg-brand-bg/30 border border-brand-neutral/50 rounded-2xl w-full overflow-hidden mb-8 min-h-[600px] relative">
+              {/* Note: Replace the src with your actual Google Calendar Appointment Scheduling link */}
+              {/* To get your link: Open Google Calendar > Create > Appointment Schedule > Share > Embed */}
+              <iframe 
+                src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0vUj...your_schedule_id...?gv=true" 
+                style={{ border: 0 }} 
+                width="100%" 
+                height="600" 
+                frameBorder="0"
+                className="absolute inset-0 bg-transparent"
+                title="Google Calendar Appointment Scheduling"
+              ></iframe>
+              
+              {/* Placeholder UI for when iframe link is not yet provided */}
+              <div className="absolute inset-0 flex flex-col items-center justify-center bg-brand-bg/90 backdrop-blur-sm p-12 text-center z-10">
+                <Calendar className="w-12 h-12 text-brand-gold mb-4 opacity-50" />
+                <p className="font-serif text-xl text-brand-accent/70 mb-2">Google Calendar Setup Required</p>
+                <p className="text-sm text-brand-accent/50 font-light max-w-sm">
+                  Replace the iframe source in the code with your Google Calendar Appointment Schedule embed link to start accepting bookings.
+                </p>
               </div>
             </div>
 
