@@ -18,11 +18,11 @@ export function Navbar() {
   }, []);
 
   const navLinks = [
-    { name: 'Home', href: '#home' },
-    { name: 'About', href: '#about' },
-    { name: 'Services', href: '#services' },
-    { name: 'Process', href: '#process' },
-    { name: 'FAQ', href: '#faq' },
+    { name: 'Home', href: '/' },
+    { name: 'About', href: '/about' },
+    { name: 'Services', href: '/services' },
+    { name: 'Process', href: '/process' },
+    { name: 'FAQ', href: '/faq' },
   ];
 
   return (
@@ -51,7 +51,7 @@ export function Navbar() {
             </Link>
           ))}
           <Link
-            href="#book"
+            href="/contact"
             className="px-6 py-2.5 bg-brand-accent text-brand-bg text-sm uppercase tracking-widest rounded-full hover:bg-brand-accent/90 transition-all shadow-sm hover:shadow-md"
           >
             Book Session
@@ -89,7 +89,7 @@ export function Navbar() {
                 </Link>
               ))}
               <Link
-                href="#book"
+                href="/contact"
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="mx-auto px-8 py-3 bg-brand-accent text-brand-bg text-sm uppercase tracking-widest rounded-full"
               >

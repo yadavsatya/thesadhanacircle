@@ -1,4 +1,3 @@
-import { Navbar } from '@/components/Navbar';
 import { Hero } from '@/components/Hero';
 import { About } from '@/components/About';
 import { Services } from '@/components/Services';
@@ -8,7 +7,6 @@ import { Testimonials } from '@/components/Testimonials';
 import { Blog } from '@/components/Blog';
 import { FAQ } from '@/components/FAQ';
 import { BookSession } from '@/components/BookSession';
-import { Footer } from '@/components/Footer';
 
 export default function Home() {
   const jsonLd = {
@@ -64,7 +62,6 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <Navbar />
       <Hero />
       <About />
       <Services />
@@ -74,7 +71,6 @@ export default function Home() {
       <Blog />
       <FAQ />
       <BookSession />
-      <Footer />
     </main>
   );
 }

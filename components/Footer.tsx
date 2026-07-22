@@ -17,13 +17,11 @@ export function Footer() {
           <div>
             <h4 className="uppercase tracking-[0.15em] text-xs font-semibold text-brand-gold mb-6">Quick Links</h4>
             <ul className="space-y-4">
-              {['Home', 'About Sadhana', 'Services', 'Journal', 'FAQ'].map(item => (
-                <li key={item}>
-                  <Link href={`#${item.toLowerCase().split(' ')[0]}`} className="text-brand-bg/70 hover:text-brand-gold transition-colors text-sm font-light">
-                    {item}
-                  </Link>
-                </li>
-              ))}
+              <li><Link href="/" className="text-brand-bg/70 hover:text-brand-gold transition-colors text-sm font-light">Home</Link></li>
+              <li><Link href="/about" className="text-brand-bg/70 hover:text-brand-gold transition-colors text-sm font-light">About Sadhana</Link></li>
+              <li><Link href="/services" className="text-brand-bg/70 hover:text-brand-gold transition-colors text-sm font-light">Services</Link></li>
+              <li><Link href="/process" className="text-brand-bg/70 hover:text-brand-gold transition-colors text-sm font-light">Process</Link></li>
+              <li><Link href="/faq" className="text-brand-bg/70 hover:text-brand-gold transition-colors text-sm font-light">FAQ</Link></li>
             </ul>
           </div>
 
@@ -32,7 +30,7 @@ export function Footer() {
             <ul className="space-y-4">
               {['Tarot Reading', 'Reiki Healing', 'Numerology', 'Crystal Healing'].map(item => (
                 <li key={item}>
-                  <Link href="#services" className="text-brand-bg/70 hover:text-brand-gold transition-colors text-sm font-light">
+                  <Link href="/services" className="text-brand-bg/70 hover:text-brand-gold transition-colors text-sm font-light">
                     {item}
                   </Link>
                 </li>
@@ -64,8 +62,8 @@ export function Footer() {
         <div className="pt-8 border-t border-brand-bg/10 flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-light text-brand-bg/50">
           <p>© {new Date().getFullYear()} The Sadhana Circle. All rights reserved.</p>
           <div className="flex gap-6">
-            <Link href="#" className="hover:text-brand-gold transition-colors">Privacy Policy</Link>
-            <Link href="#" className="hover:text-brand-gold transition-colors">Terms of Service</Link>
+            <Link href="/privacy-policy" className="hover:text-brand-gold transition-colors">Privacy Policy</Link>
+            <Link href="/terms-of-service" className="hover:text-brand-gold transition-colors">Terms of Service</Link>
           </div>
         </div>
       </div>

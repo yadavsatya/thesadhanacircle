@@ -1,6 +1,8 @@
 import type {Metadata} from 'next';
 import {Cormorant_Garamond, Lato} from 'next/font/google';
 import './globals.css'; // Global styles
+import { Navbar } from '@/components/Navbar';
+import { Footer } from '@/components/Footer';
 
 const cormorant = Cormorant_Garamond({
   subsets: ['latin'],
@@ -22,7 +24,13 @@ export const metadata: Metadata = {
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${cormorant.variable} ${lato.variable} font-sans bg-brand-bg text-brand-accent antialiased selection:bg-brand-gold selection:text-white`} suppressHydrationWarning>{children}</body>
+      <body className={`${cormorant.variable} ${lato.variable} font-sans bg-brand-bg text-brand-accent antialiased selection:bg-brand-gold selection:text-white flex flex-col min-h-screen`} suppressHydrationWarning>
+        <Navbar />
+        <div className="flex-grow">
+          {children}
+        </div>
+        <Footer />
+      </body>
     </html>
   );
 }
