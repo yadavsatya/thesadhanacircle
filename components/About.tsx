@@ -45,7 +45,7 @@ export function About() {
               <span className="italic text-brand-secondary">Inner Journey</span>
             </h2>
             
-            <div className="space-y-6 text-brand-accent/80 font-light leading-relaxed">
+            <div className="space-y-6 text-brand-accent font-normal leading-relaxed">
               <p>
                 Welcome. I am Sadhana Yadav, founder of The Sadhana Circle. My journey began with a simple calling: to help others find clarity in moments of doubt and healing in times of emotional weight.
               </p>

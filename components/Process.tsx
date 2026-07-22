@@ -28,7 +28,7 @@ export function Process() {
                 Your Path to <br/>
                 <span className="italic text-brand-secondary">Clarity</span>
               </h2>
-              <p className="text-brand-bg/70 font-light text-lg">
+              <p className="text-brand-bg/90 font-normal text-lg">
                 Four simple steps to begin your journey of self-discovery and holistic healing.
               </p>
             </motion.div>
@@ -47,7 +47,7 @@ export function Process() {
                 >
                   <span className="absolute -left-5 top-0 font-serif text-4xl text-brand-gold opacity-30">{step.num}</span>
                   <h3 className="font-serif text-2xl mb-3 mt-1">{step.title}</h3>
-                  <p className="text-brand-bg/60 font-light leading-relaxed">{step.desc}</p>
+                  <p className="text-brand-bg/90 font-normal leading-relaxed">{step.desc}</p>
                 </motion.div>
               ))}
             </div>

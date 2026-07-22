@@ -62,7 +62,7 @@ export function Services() {
             <h2 className="font-serif text-4xl lg:text-5xl text-brand-accent mb-6">
               Transformative <span className="italic text-brand-secondary">Services</span>
             </h2>
-            <p className="text-brand-accent/70 max-w-2xl mx-auto font-light text-lg">
+            <p className="text-brand-accent/90 max-w-2xl mx-auto font-normal text-lg">
               Carefully curated sessions designed to bring you peace, clarity, and deep emotional healing.
             </p>
           </motion.div>
@@ -104,20 +104,20 @@ export function Services() {
                 </div>
                 
                 <h3 className="font-serif text-3xl text-brand-accent mb-4">{service.title}</h3>
-                <p className="text-brand-accent/80 font-light mb-8 leading-relaxed min-h-[4rem]">
+                <p className="text-brand-accent font-normal mb-8 leading-relaxed min-h-[4rem]">
                   {service.desc}
                 </p>
 
                 <div className="flex flex-wrap gap-2 mb-8">
                   {service.benefits.map(benefit => (
-                    <span key={benefit} className="px-4 py-1.5 rounded-full bg-brand-bg/50 text-brand-accent/70 text-sm font-light border border-brand-neutral/30">
+                    <span key={benefit} className="px-4 py-1.5 rounded-full bg-brand-bg/50 text-brand-accent/90 text-sm font-normal border border-brand-neutral/30">
                       {benefit}
                     </span>
                   ))}
                 </div>
 
                 <div className="flex flex-col sm:flex-row justify-between items-center gap-6 pt-8 border-t border-brand-neutral/40">
-                  <div className="text-sm text-brand-accent/60 space-y-1">
+                  <div className="text-sm text-brand-accent/90 space-y-1">
                     <p>{service.duration} • {service.mode}</p>
                     <p className="font-serif text-xl text-brand-accent">{service.price}</p>
                   </div>

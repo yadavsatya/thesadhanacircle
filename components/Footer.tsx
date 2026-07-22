@@ -9,7 +9,7 @@ export function Footer() {
           
           <div className="lg:col-span-1">
             <h3 className="font-serif text-2xl tracking-wide font-semibold text-brand-gold mb-6">The Sadhana Circle</h3>
-            <p className="text-brand-bg/70 font-light text-sm leading-relaxed pr-4">
+            <p className="text-brand-bg/90 font-normal text-sm leading-relaxed pr-4">
               Guidance, healing, and transformation for your soul's journey. Find peace and clarity within.
             </p>
           </div>
@@ -17,11 +17,11 @@ export function Footer() {
           <div>
             <h4 className="uppercase tracking-[0.15em] text-xs font-semibold text-brand-gold mb-6">Quick Links</h4>
             <ul className="space-y-4">
-              <li><Link href="/" className="text-brand-bg/70 hover:text-brand-gold transition-colors text-sm font-light">Home</Link></li>
-              <li><Link href="/about" className="text-brand-bg/70 hover:text-brand-gold transition-colors text-sm font-light">About Sadhana</Link></li>
-              <li><Link href="/services" className="text-brand-bg/70 hover:text-brand-gold transition-colors text-sm font-light">Services</Link></li>
-              <li><Link href="/process" className="text-brand-bg/70 hover:text-brand-gold transition-colors text-sm font-light">Process</Link></li>
-              <li><Link href="/faq" className="text-brand-bg/70 hover:text-brand-gold transition-colors text-sm font-light">FAQ</Link></li>
+              <li><Link href="/" className="text-brand-bg/90 hover:text-brand-gold transition-colors text-sm font-normal">Home</Link></li>
+              <li><Link href="/about" className="text-brand-bg/90 hover:text-brand-gold transition-colors text-sm font-normal">About Sadhana</Link></li>
+              <li><Link href="/services" className="text-brand-bg/90 hover:text-brand-gold transition-colors text-sm font-normal">Services</Link></li>
+              <li><Link href="/process" className="text-brand-bg/90 hover:text-brand-gold transition-colors text-sm font-normal">Process</Link></li>
+              <li><Link href="/faq" className="text-brand-bg/90 hover:text-brand-gold transition-colors text-sm font-normal">FAQ</Link></li>
             </ul>
           </div>
 
@@ -30,7 +30,7 @@ export function Footer() {
             <ul className="space-y-4">
               {['Tarot Reading', 'Reiki Healing', 'Numerology', 'Crystal Healing'].map(item => (
                 <li key={item}>
-                  <Link href="/services" className="text-brand-bg/70 hover:text-brand-gold transition-colors text-sm font-light">
+                  <Link href="/services" className="text-brand-bg/90 hover:text-brand-gold transition-colors text-sm font-normal">
                     {item}
                   </Link>
                 </li>
@@ -40,7 +40,7 @@ export function Footer() {
 
           <div>
             <h4 className="uppercase tracking-[0.15em] text-xs font-semibold text-brand-gold mb-6">Connect</h4>
-            <ul className="space-y-4 text-sm font-light text-brand-bg/70">
+            <ul className="space-y-4 text-sm font-normal text-brand-bg/90">
               <li className="flex items-center gap-3">
                 <MapPin size={16} className="text-brand-gold" />
                 Vadodara, India (Online Worldwide)
@@ -59,7 +59,7 @@ export function Footer() {
 
         </div>
 
-        <div className="pt-8 border-t border-brand-bg/10 flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-light text-brand-bg/50">
+        <div className="pt-8 border-t border-brand-bg/10 flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-normal text-brand-bg/50">
           <p>© {new Date().getFullYear()} The Sadhana Circle. All rights reserved.</p>
           <div className="flex gap-6">
             <Link href="/privacy-policy" className="hover:text-brand-gold transition-colors">Privacy Policy</Link>

@@ -42,7 +42,7 @@ export function WhyChooseUs() {
                 <reason.icon size={20} strokeWidth={1.5} />
               </div>
               <h3 className="font-serif text-xl text-brand-accent mb-3">{reason.title}</h3>
-              <p className="text-brand-accent/70 font-light text-sm">{reason.desc}</p>
+              <p className="text-brand-accent/90 font-normal text-sm">{reason.desc}</p>
             </motion.div>
           ))}
         </div>

@@ -19,7 +19,7 @@ export function BookSession() {
             <h2 className="font-serif text-3xl md:text-5xl text-brand-accent mb-6 leading-tight">
               Begin Your <span className="italic text-brand-secondary">Transformation</span>
             </h2>
-            <p className="text-brand-accent/70 font-light mb-12 text-lg">
+            <p className="text-brand-accent/90 font-normal mb-12 text-lg">
               Select your preferred service and time. We will send you a secure link for our online session.
             </p>
 
@@ -39,8 +39,8 @@ export function BookSession() {
               {/* Placeholder UI for when iframe link is not yet provided */}
               <div className="absolute inset-0 flex flex-col items-center justify-center bg-brand-bg/90 backdrop-blur-sm p-12 text-center z-10">
                 <Calendar className="w-12 h-12 text-brand-gold mb-4 opacity-50" />
-                <p className="font-serif text-xl text-brand-accent/70 mb-2">Google Calendar Setup Required</p>
-                <p className="text-sm text-brand-accent/50 font-light max-w-sm">
+                <p className="font-serif text-xl text-brand-accent/90 mb-2">Google Calendar Setup Required</p>
+                <p className="text-sm text-brand-accent/50 font-normal max-w-sm">
                   Replace the iframe source in the code with your Google Calendar Appointment Schedule embed link to start accepting bookings.
                 </p>
               </div>

@@ -68,7 +68,7 @@ export function Testimonials() {
                     </p>
                     <div>
                       <p className="uppercase tracking-widest text-sm text-brand-accent font-medium">{testimonial.author}</p>
-                      <p className="text-brand-secondary text-sm font-light mt-1">{testimonial.role}</p>
+                      <p className="text-brand-secondary text-sm font-normal mt-1">{testimonial.role}</p>
                     </div>
                   </div>
                 </motion.div>

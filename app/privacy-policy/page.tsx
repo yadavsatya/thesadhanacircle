@@ -3,7 +3,7 @@ export default function PrivacyPolicyPage() {
     <main className="pt-32 pb-24 bg-brand-bg">
       <div className="max-w-3xl mx-auto px-6">
         <h1 className="font-serif text-4xl lg:text-5xl text-brand-accent mb-8">Privacy Policy</h1>
-        <div className="prose prose-brand text-brand-accent/80 font-light leading-relaxed">
+        <div className="prose prose-brand text-brand-accent font-normal leading-relaxed">
           <p className="mb-6">Last updated: {new Date().toLocaleDateString()}</p>
           
           <h2 className="font-serif text-2xl text-brand-accent mt-12 mb-4">1. Introduction</h2>

@@ -45,7 +45,7 @@ export function Navbar() {
             <Link
               key={link.name}
               href={link.href}
-              className="text-sm uppercase tracking-widest text-brand-accent/80 hover:text-brand-accent transition-colors"
+              className="text-sm uppercase tracking-widest text-brand-accent hover:text-brand-accent transition-colors"
             >
               {link.name}
             </Link>

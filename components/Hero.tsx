@@ -40,7 +40,7 @@ export function Hero() {
             Discover Clarity,<br />
             <span className="italic text-brand-secondary">Healing & Transformation</span>
           </h1>
-          <p className="text-lg md:text-xl text-brand-accent/80 max-w-2xl mx-auto mb-12 font-light leading-relaxed">
+          <p className="text-lg md:text-xl text-brand-accent max-w-2xl mx-auto mb-12 font-normal leading-relaxed">
             The Sadhana Circle helps you reconnect with yourself through Tarot Reading, Reiki Healing, Numerology and Crystal Healing.
           </p>
 
@@ -74,7 +74,7 @@ export function Hero() {
                 <card.icon size={24} strokeWidth={1.5} />
               </div>
               <h3 className="font-serif text-2xl text-brand-accent mb-2">{card.title}</h3>
-              <p className="text-brand-accent/70 font-light">{card.desc}</p>
+              <p className="text-brand-accent/90 font-normal">{card.desc}</p>
             </motion.div>
           ))}
         </div>

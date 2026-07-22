@@ -20,7 +20,7 @@ export function ContactForm() {
           <Check size={32} strokeWidth={1.5} />
         </div>
         <h3 className="font-serif text-3xl text-brand-accent">Thank You</h3>
-        <p className="text-brand-accent/70 font-light max-w-sm">
+        <p className="text-brand-accent/90 font-normal max-w-sm">
           We have received your details. Our team will connect with you shortly to assist with your journey.
         </p>
       </div>
@@ -33,39 +33,39 @@ export function ContactForm() {
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
-          <label className="block text-sm text-brand-accent/70 mb-2">Name</label>
-          <input required type="text" className="w-full bg-brand-bg/50 border border-brand-neutral/50 rounded-xl px-4 py-3 text-brand-accent font-light focus:outline-none focus:border-brand-gold/50 transition-colors" placeholder="Your full name" />
+          <label className="block text-sm text-brand-accent/90 mb-2">Name</label>
+          <input required type="text" className="w-full bg-brand-bg/50 border border-brand-neutral/50 rounded-xl px-4 py-3 text-brand-accent font-normal focus:outline-none focus:border-brand-gold/50 transition-colors" placeholder="Your full name" />
         </div>
         <div>
-          <label className="block text-sm text-brand-accent/70 mb-2">Contact Number</label>
-          <input required type="tel" className="w-full bg-brand-bg/50 border border-brand-neutral/50 rounded-xl px-4 py-3 text-brand-accent font-light focus:outline-none focus:border-brand-gold/50 transition-colors" placeholder="+91" />
+          <label className="block text-sm text-brand-accent/90 mb-2">Contact Number</label>
+          <input required type="tel" className="w-full bg-brand-bg/50 border border-brand-neutral/50 rounded-xl px-4 py-3 text-brand-accent font-normal focus:outline-none focus:border-brand-gold/50 transition-colors" placeholder="+91" />
         </div>
       </div>
       
       <div>
-        <label className="block text-sm text-brand-accent/70 mb-2">Email <span className="text-brand-accent/40 italic">(Optional)</span></label>
-        <input type="email" className="w-full bg-brand-bg/50 border border-brand-neutral/50 rounded-xl px-4 py-3 text-brand-accent font-light focus:outline-none focus:border-brand-gold/50 transition-colors" placeholder="your@email.com" />
+        <label className="block text-sm text-brand-accent/90 mb-2">Email <span className="text-brand-accent/40 italic">(Optional)</span></label>
+        <input type="email" className="w-full bg-brand-bg/50 border border-brand-neutral/50 rounded-xl px-4 py-3 text-brand-accent font-normal focus:outline-none focus:border-brand-gold/50 transition-colors" placeholder="your@email.com" />
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div>
-          <label className="block text-sm text-brand-accent/70 mb-2">City</label>
-          <input required type="text" className="w-full bg-brand-bg/50 border border-brand-neutral/50 rounded-xl px-4 py-3 text-brand-accent font-light focus:outline-none focus:border-brand-gold/50 transition-colors" placeholder="City name" />
+          <label className="block text-sm text-brand-accent/90 mb-2">City</label>
+          <input required type="text" className="w-full bg-brand-bg/50 border border-brand-neutral/50 rounded-xl px-4 py-3 text-brand-accent font-normal focus:outline-none focus:border-brand-gold/50 transition-colors" placeholder="City name" />
         </div>
         <div>
-          <label className="block text-sm text-brand-accent/70 mb-2">State</label>
-          <input required type="text" className="w-full bg-brand-bg/50 border border-brand-neutral/50 rounded-xl px-4 py-3 text-brand-accent font-light focus:outline-none focus:border-brand-gold/50 transition-colors" placeholder="State" />
+          <label className="block text-sm text-brand-accent/90 mb-2">State</label>
+          <input required type="text" className="w-full bg-brand-bg/50 border border-brand-neutral/50 rounded-xl px-4 py-3 text-brand-accent font-normal focus:outline-none focus:border-brand-gold/50 transition-colors" placeholder="State" />
         </div>
         <div>
-          <label className="block text-sm text-brand-accent/70 mb-2">Country</label>
-          <input type="text" readOnly value="India" className="w-full bg-brand-bg border border-brand-neutral/30 text-brand-accent/50 rounded-xl px-4 py-3 cursor-not-allowed font-light" />
+          <label className="block text-sm text-brand-accent/90 mb-2">Country</label>
+          <input type="text" readOnly value="India" className="w-full bg-brand-bg border border-brand-neutral/30 text-brand-accent/50 rounded-xl px-4 py-3 cursor-not-allowed font-normal" />
         </div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
-          <label className="block text-sm text-brand-accent/70 mb-2">Service of Interest</label>
-          <select required defaultValue="" className="w-full bg-brand-bg/50 border border-brand-neutral/50 rounded-xl px-4 py-3 text-brand-accent font-light focus:outline-none focus:border-brand-gold/50 transition-colors appearance-none">
+          <label className="block text-sm text-brand-accent/90 mb-2">Service of Interest</label>
+          <select required defaultValue="" className="w-full bg-brand-bg/50 border border-brand-neutral/50 rounded-xl px-4 py-3 text-brand-accent font-normal focus:outline-none focus:border-brand-gold/50 transition-colors appearance-none">
             <option value="" disabled>Select a service</option>
             <option value="tarot">Tarot Reading</option>
             <option value="reiki">Reiki Healing</option>
@@ -75,8 +75,8 @@ export function ContactForm() {
           </select>
         </div>
         <div>
-          <label className="block text-sm text-brand-accent/70 mb-2">Best time to connect</label>
-          <select required defaultValue="" className="w-full bg-brand-bg/50 border border-brand-neutral/50 rounded-xl px-4 py-3 text-brand-accent font-light focus:outline-none focus:border-brand-gold/50 transition-colors appearance-none">
+          <label className="block text-sm text-brand-accent/90 mb-2">Best time to connect</label>
+          <select required defaultValue="" className="w-full bg-brand-bg/50 border border-brand-neutral/50 rounded-xl px-4 py-3 text-brand-accent font-normal focus:outline-none focus:border-brand-gold/50 transition-colors appearance-none">
             <option value="" disabled>Select a time</option>
             <option value="morning">Morning (10 AM - 12 PM)</option>
             <option value="afternoon">Afternoon (12 PM - 4 PM)</option>
